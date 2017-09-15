@@ -1,0 +1,222 @@
+@CHARSET "UTF-8";
+body {
+	font-size: 20px;
+	/*background-color: grey;*/
+	background-image: url("background.jpg");
+}
+#contener{
+	width:1100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+
+}
+#title {
+	width: 450px;
+	height: 180px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: 0px 0px 52px 21px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 52px 21px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 52px 21px rgba(0,0,0,0.75);
+	
+}
+
+.names{
+	margin:0px;
+}
+.names span{
+	padding: 7px;
+	margin: 7px;
+	width: 150px;
+	display: inline-block;
+	
+}
+#menu{
+	background-color: black;
+	margin-top: 30px;
+	padding: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#menu span{
+	margin: 100px;
+}
+#menu a{
+	font-size: 30px;
+	color: #D8BFD8;
+}
+#menu a:link{
+	text-decoration: none;
+}
+#menu a:visited{
+	text-decoration: none;
+}
+#menu a:hover{
+	text-decoration: none;
+}
+#menu a:active{
+	text-decoration: none;
+	color: #E6E6FA;
+}
+#secondMenu{
+	background-color: #532D5A;
+	padding: 11px;
+	-webkit-box-shadow: 2px 14px 23px -3px rgba(83,45,90,1);
+	-moz-box-shadow: 2px 14px 23px -3px rgba(83,45,90,1);
+	box-shadow: 2px 14px 23px -3px rgba(83,45,90,1);
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	
+}
+#secondMenu span{
+	margin: 80px
+}
+#secondMenu a{
+	font-size: 20px;
+	color: #D8BFD8;
+}
+#secondMenu a:link{
+	text-decoration: none;
+}
+#secondMenu a:visited{
+	text-decoration: none;
+}
+#secondMenu a:hover{
+	text-decoration: none;
+}
+#secondMenu a:active{
+	text-decoration: none;
+	color: #E6E6FA;
+}
+footer {
+	background-color: #D8BFD8;
+	clear: both;
+}
+#nav{
+	float:left;
+	background-color: black;
+	padding: 15px;
+	color: grey;
+	min-height: 400px;
+	width: 100px;
+}
+#nav a:link{
+	text-decoration: none;
+	color: grey;
+}
+#nav a:visited{
+	text-decoration: none;
+	color: grey;
+}
+#nav a:hover{
+	text-decoration: none;
+	color: grey;
+}
+#nav a:active{
+	text-decoration: none;
+	color: grey;
+}
+#text{
+	float:left;
+	text-align: left;
+	margin-left: 20px;
+	margin-top:20px;
+	color: black;	
+	/*background-color: grey;*/	
+}
+#text a:link{
+	text-decoration: none;
+	color: black;
+}
+#text a:visited{
+	text-decoration: none;
+	color: black;
+}
+#text a:hover{
+	text-decoration: none;
+	color: black;
+}
+#text a:active{
+	text-decoration: none;
+	color: black;
+}
+input[type=text],
+input[type=list],
+input[type=date],
+input{
+	padding: 7px;
+	margin: 0px 7px 15px 7px;
+	border-radius: 6px;
+ 	background-color: #efefef;
+}
+input[type=submit]{
+	padding: 7px;
+	margin: 7px;
+	border-radius: 6px;
+	color: #D8BFD8;
+	background-color: #47267B;
+	-webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+	min-width: 90px;
+	border-color: #CA9AE4;
+	
+}
+#nickToSearch{
+	width: 78px;
+	height: 10px;
+}
+#nameToSearch{
+	width: 78px;
+	height: 10px;
+}
+.button{
+	display: inline;
+}
+.rel {
+	padding: 7px;
+	margin: 7px;
+	width: 500px;
+	display: inline-block;
+}
+textarea[id=industry],
+textarea[id=politics],
+textarea[id=culture],
+textarea[id=fauna],
+textarea[id=flora],
+textarea[id=military]{
+	background-color: #efefef;
+	padding: 7px;
+	margin: 1px;
+	border-radius: 6px;
+ 	width: 340px;
+ 	height: 51px
+}
+textarea[id=description]{
+	background-color: #efefef;
+	padding: 7px;
+	margin: 1px;
+	border-radius: 6px;
+ 	width: 340px;
+ 	height: 102px
+ 	
+}
+ #content{
+ 	background-color: grey;
+ }
+ #register,
+ #login{
+ 	float: left;
+ 	margin: 10px;
+ }
+p{
+	font-size: 22px;
+}
